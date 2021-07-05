@@ -18,6 +18,13 @@ section{
 .half-w img{
     width: 80%;
 }
+.half-w2{
+    width: 50%;
+    padding: 5%;
+}
+.half-w2 img{
+    width: 80%;
+}
 .hire-bt{
     text-decoration: none;
     background-image: linear-gradient(to right, rgb(149, 149, 241), cyan);
@@ -30,4 +37,9 @@ section{
     background-repeat: no-repeat;
 
     
+}
+.mid{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
