@@ -8,19 +8,21 @@ h1{
 .Demo{
     color: orange;
 }
-section{
-    display: flex;
-}
+
+
 .half-w{
     width: 50%;
     padding: 5%;
+    font-size: 25px;
 }
 .half-w img{
     width: 80%;
+    margin-left: 30%;
 }
 .half-w2{
     width: 50%;
     padding: 5%;
+    font-size: 25px;
 }
 .half-w2 img{
     width: 80%;
@@ -32,9 +34,13 @@ section{
     font-weight: 700 ;
     padding: 10px 40px;
 }
+.flex{
+    display: flex;
+}
 .top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    
 
     
 }
@@ -42,4 +48,39 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-attachment: fixed;
+    
+}
+
+.box{
+    box-shadow: 10px 10px 30px black;
+    width: 50%;
+    padding: 5%;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+  
+    
+
+}
+.down-bg{
+    background-image: url(images/exp-bg.png);
+    background-size: 150px 300px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+}
+#exp1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#exp2{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, yellow);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
